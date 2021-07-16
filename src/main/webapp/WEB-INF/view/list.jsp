@@ -6,6 +6,8 @@
 
  
     <h1>Elenco Viaggi</h1>
+    
+    <a href="/gestioneviaggi/list/aggiungi" class="btn btn-primary" type="submit"> Aggiungi </a>
 
     <table class="table table-dark table-striped" id="elenco">
         <tr>
@@ -20,6 +22,8 @@
             <td><%= v.getDurata() %></td><td><%= v.getPrezzo() %> a persona</td>
         </tr>
         <%} %>
+
+
 
     </table>
 

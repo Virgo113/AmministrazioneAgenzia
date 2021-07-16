@@ -16,9 +16,9 @@ public class Viaggio {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int id;
-	@NotNull
+//	@NotNull
 	private String destinazione, descrizione;
-	@Min(2)
+//	@Min(2)
 	private int durata;
 	private double prezzo;
 	
