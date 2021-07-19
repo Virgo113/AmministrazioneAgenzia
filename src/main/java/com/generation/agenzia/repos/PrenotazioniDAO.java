@@ -6,4 +6,6 @@ import com.generation.agenzia.entities.Prenotazioni;
 
 public interface PrenotazioniDAO extends JpaRepository<Prenotazioni, Integer> {
 
+	
+	
 }

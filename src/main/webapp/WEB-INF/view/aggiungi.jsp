@@ -1,10 +1,10 @@
 <%@ include file="header.jsp"%>
 
-<a href="/gestioneviaggi/mvc/viaggi/">Elenco</a>
+<a href="/gestioneviaggi/list/" class="btn btn-info" type="submit">Elenco</a>
 
 <h1>Dettaglio viaggio</h1>
 
-<h2>Destinazione : ${viaggio.destinazione}</h2>
+<h2>Destinazione : </h2>
 
 
 
@@ -29,7 +29,7 @@
         <div class="input-group has-validation">
             <textarea class="form-control" name="descrizione" id="validationCustomUsername" aria-describedby="inputGroupPrepend" cols="30" rows="10" required placeholder="Descrizione...."></textarea>
             <div class="invalid-feedback">
-                Please choose a username.
+                Please insert a Description.
             </div>
         </div>
     </div>

@@ -1,6 +1,6 @@
 <%@ include file="header.jsp"%>
 
-<a href="/gestioneviaggi/mvc/viaggi/">Elenco</a>
+<a href="/gestioneviaggi/list/" class="btn btn-info" type="submit">Elenco</a>
 
 <h1>Dettaglio viaggio</h1>
 
